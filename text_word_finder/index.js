@@ -1,10 +1,16 @@
-var formidable = require('formidable'),
+var formidable = require('formidable'), 
 	http = require('http'),
 	sys = require('sys'),
-	wordCounter = require('./FileWordCounter');
+	wordCounter = require('./FileWordCounter'),
+	constants = require('./Constants');
 
 http.createServer(function(req, res) {
-if (req.url == '/upload' && req.method.toLowerCase() == 'post') {
+var url = {};
+constants.url(function(URL) {
+	url = URL;
+});
+
+if (req.url == url.UPLOAD && req.method.toLowerCase() == 'post') {
 	// parse a file upload
 	var form = new formidable.IncomingForm();
 
