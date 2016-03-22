@@ -1,0 +1,57 @@
+body{
+	padding:50px;
+	font:14px"LucidaGrande",Helvetica,Arial, sans-serif;
+	background-image: background:url(../images/background-chat.jpg)
+}
+a {
+	color:#00B7FF;
+}
+
+#room{
+	background-color:#ddd;
+	margin-bottom:1em;
+}
+
+#messages{
+	width:75%;
+	height:480px;
+	overflow:auto;
+	background-color:vblack;
+	margin-bottom:1em;
+	margin-right:10px;
+	color:white;
+	background: lightslategrey;
+	/*background:url(../images/background-chat.jpg);*/
+}
+
+#room-list{
+	float:right;
+	width:100px;
+	height:480px;
+	overflow:auto;
+}
+
+#form-div, #user_options , #room-list {
+	background: lightslategrey;
+}
+
+#form-div, #user_options {
+	width:75%;
+}
+
+#room-listdiv{
+	border-bottom:1pxsolid#eee;
+}
+#room-listdiv:hover{
+	background-color:#ddd;
+}
+
+#send-message{
+	width:700px;
+	margin-bottom:1em;
+	margin-right:1em;
+}
+
+#help{
+	font:10px"LucidaGrande",Helvetica,Arial, sans-serif;
+}

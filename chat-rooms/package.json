@@ -1,0 +1,13 @@
+{
+"name":"chat-rooms",
+"version":"0.0.1",
+"description":"Minimalist multi room chat server",
+"repository": "https://github.com/LiveExamples/chat-rooms.git",
+"dependencies":{
+"socket.io":"~0.9.6",
+"mime":"~1.2.7"
+},
+"engines": {
+    "node": "0.10.33"
+}
+}
